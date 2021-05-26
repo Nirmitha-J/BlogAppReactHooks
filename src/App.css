@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+.navLink {
+  margin-left: 20px;
+
+}
+
+.homepage-bgimage {
+  background: url("http://abcd.com/static/media/slide.504dc6e6.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
