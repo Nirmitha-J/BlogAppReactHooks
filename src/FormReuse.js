@@ -212,7 +212,7 @@ function FormReuse(props) {
         
         <div style={{ textAlign: "right", marginTop: "10%" }}>
           <Button color="link" onClick={goBack}>
-            Go Back
+          &lt;- Go Back
           </Button>
         </div>) : null}
          {isEdit && visible ? (

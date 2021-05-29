@@ -9,7 +9,6 @@ import {
   Route,
   Link,
   NavLink,
-  useParams,
   Redirect
   
 } from "react-router-dom";
@@ -53,7 +52,7 @@ function App() {
       </BrowserRouter>
 
 
-  <div className="footer" style={{textAlign: 'center',  bottom: '0', width: '100%', height: '30px', backgroundColor: 'black', color: 'white', position: 'scroll', marginTop: '30px',  zIndex: 1}}>
+  <div className="footer" style={{textAlign: 'center',  bottom: 0, width: '100%', height: '30px', backgroundColor: 'black', color: 'white', position: 'scroll', marginTop: '30px',  zIndex: 1}}>
     © 2021 Copyright
     
   </div>

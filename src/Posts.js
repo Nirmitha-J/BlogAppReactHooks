@@ -71,7 +71,7 @@ function Posts(props) {
       ) : (
         <Container>
             <div style={{textAlign: 'right', marginTop: '8%'}}>
-        <Button color="link" onClick={goBack}>Go Back</Button>
+        <Button color="link" onClick={goBack}>&lt;- Go Back</Button>
         
         </div>
           <FormReuse isEdit="false"></FormReuse>
